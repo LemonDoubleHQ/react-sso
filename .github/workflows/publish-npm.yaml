@@ -35,7 +35,7 @@ jobs:
           git config --global user.name "lemondouble"
 
       - name: Update NPM Version
-        run: npm version --patch ${{ env.RELEASE_VERSION }}
+        run: npm version --patch --no-git-tag-version ${{ env.RELEASE_VERSION }}
 
       - name: Publish To NPM
         run: npm publish --access=public
