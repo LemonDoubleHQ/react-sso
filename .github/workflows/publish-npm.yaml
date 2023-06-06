@@ -45,5 +45,5 @@ jobs:
       - name: Commit Updated package.json version
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Update Package.json ${{ env.RELEASE_VERSION }}
+          commit_message: (v${{ env.RELEASE_VERSION }}) Update Package.json
           branch: main
