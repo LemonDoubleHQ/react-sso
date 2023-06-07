@@ -1,7 +1,7 @@
 {
   "name": "@lemondouble/react-sso",
   "private": false,
-  "version": "0.0.9",
+  "version": "0.0.10",
   "type": "module",
   "files": [
     "dist"
@@ -16,7 +16,7 @@
   "main": "./dist/lemon-react-sso.umd.js",
   "module": "./dist/lemon-react-sso.es.js",
   "types": "./dist/index.d.ts",
-  "peerDependencies": { 
+  "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
