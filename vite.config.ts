@@ -14,7 +14,10 @@ export default defineConfig({
   tsConfigPaths(),
   react()
 ],
+  ssr: { noExternal: true },
   build: {
+    ssr: true,
+    minify: true,
     lib: {
       entry: resolve('src/', 'index.ts'),
       name: 'LemonReactSSO',
