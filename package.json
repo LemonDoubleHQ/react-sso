@@ -8,13 +8,13 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/react-global-modal.es.js",
-      "require": "./dist/react-global-modal.umd.js"
+      "import": "./dist/lemon-react-sso.es.js",
+      "require": "./dist/lemon-react-sso.umd.js"
     },
     "./dist/style.css": "./dist/style.css"
   },
-  "main": "./dist/react-global-modal.umd.js",
-  "module": "./dist/react-global-modal.es.js",
+  "main": "./dist/lemon-react-sso.umd.js",
+  "module": "./dist/lemon-react-sso.es.js",
   "types": "./dist/index.d.ts",
   "peerDependencies": {},
   "scripts": {
