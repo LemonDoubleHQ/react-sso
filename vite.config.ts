@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import dts from 'vite-plugin-dts'
+import tsConfigPaths from 'vite-tsconfig-paths'
 
 import { resolve } from 'node:path'
 import * as packageJson from "./package.json"
@@ -10,7 +11,9 @@ export default defineConfig({
   plugins: [dts({
     include: ['src/'],
   }),
-    react()],
+  tsConfigPaths(),
+  react()
+],
   build: {
     lib: {
       entry: resolve('src/', 'index.ts'),
