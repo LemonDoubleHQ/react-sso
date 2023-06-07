@@ -20,6 +20,9 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
+  "paths": {
+    "@lemondouble/react-sso": [ "src/index.ts" ]
+  },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
