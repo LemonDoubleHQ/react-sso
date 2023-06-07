@@ -8,6 +8,7 @@
   ],
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/lemon-react-sso.es.js",
       "require": "./dist/lemon-react-sso.umd.js"
     },
