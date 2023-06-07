@@ -14,9 +14,9 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve('src/', 'index.ts'),
-      name: 'ReactGlobalModal',
+      name: 'LemonReactSSO',
       formats: ['es', 'umd'],
-      fileName: (format) => `react-global-modal.${format}.js`,
+      fileName: (format) => `lemon-react-sso.${format}.js`,
     },
     rollupOptions: {
       external: [...Object.keys(packageJson.peerDependencies)],
