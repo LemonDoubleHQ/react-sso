@@ -1,6 +1,5 @@
 import { Avatar, Button, Divider, NoSsr, Paper, Stack, Typography } from '@mui/material';
 import GoogleSvgIcon from './icons/GoogleSvgIcon.tsx';
-
 export interface LemonSSOProps {
   // example : https://service.lemondouble.com/home
   redirectUrl?: string;
@@ -21,7 +20,7 @@ export function LemonSSO(props: LemonSSOProps) {
       >
         <Stack direction="column" spacing={2} justifyContent="center" alignItems="center">
           <Stack direction="row" spacing={2} justifyContent="center" alignItems="center">
-            <Avatar alt="Site Logo" src="/lemon-logo.webp" />
+            <Avatar alt="Site Logo" src="./lemon-logo.webp" />
             <Typography variant="h6">Lemon Toolbox</Typography>
           </Stack>
           <Typography variant="body1">계속 하려면 로그인 해 주세요.</Typography>
